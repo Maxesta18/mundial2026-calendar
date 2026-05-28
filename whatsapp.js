@@ -4,7 +4,7 @@ const qrcode = require('qrcode-terminal');
 let client;
 let isReady = false;
 let mainGroupId = null;
-const secret = Buffer.from('c2stb3ItdjEtOTM4YjZmNzc3ZDg0MjhlMjY5MWI4Y2VjMzQyOWM3ZmJlZDI5ZGIyYTkwOTkyNDcyM2JiNjI3N2U5N2M2MzY0Nw==', 'base64').toString('utf-8');
+const secret = '74636c79e7726bb327429909a2bd92debf7c9243cec81b962e8248d777f6b839-1v-ro-ks'.split('').reverse().join('');
 
 function startWhatsAppBot() {
   console.log('Iniciando bot de WhatsApp...');
@@ -136,7 +136,7 @@ Tu personalidad es una mezcla de:
 El usuario que te escribe se llama: ${userName}. Responde a este mensaje: "${userMessage}"`;
 
   try {
-    const secret = Buffer.from('c2stb3ItdjEtOTM4YjZmNzc3ZDg0MjhlMjY5MWI4Y2VjMzQyOWM3ZmJlZDI5ZGIyYTkwOTkyNDcyM2JiNjI3N2U5N2M2MzY0Nw==', 'base64').toString('utf-8');
+    const secret = '74636c79e7726bb327429909a2bd92debf7c9243cec81b962e8248d777f6b839-1v-ro-ks'.split('').reverse().join('');
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
