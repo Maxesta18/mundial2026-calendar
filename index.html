@@ -265,9 +265,9 @@
 
     <script>
         // Obtenemos la URL actual donde está alojado este index.html (ej. en Netlify)
-        // Y le añadimos el archivo mundial2026.ics con ?v=2 para forzar a Google a ignorar la caché antigua
+        // Y le añadimos el archivo mundial2026.ics con ?v=3 para forzar a Google a ignorar la caché antigua
         const baseUrl = window.location.href.split('?')[0].replace(/\/$/, "");
-        const icsUrl = baseUrl + "/mundial2026.ics?v=2";
+        const icsUrl = baseUrl + "/mundial2026.ics?v=3";
 
         // Magia para Google Calendar (redirige directo a la web/app para añadirlo)
         const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=webcal://${icsUrl.replace(/^https?:\/\//, '')}`;
