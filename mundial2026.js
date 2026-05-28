@@ -362,9 +362,15 @@ function buildICS(events) {
     const dtend = addMinutes(ev.date, ev.time, 110); // 90min + 20 extra
     const uid = `mundial2026-partido${ev.id}@manu.ruiz`;
 
-    const title = ev.phase === 'Fase de Grupos'
+    const isSpain = ev.home.includes('España') || ev.away.includes('España');
+
+    let title = ev.phase === 'Fase de Grupos'
       ? `⚽ ${ev.home} vs ${ev.away} | ${ev.group}`
       : `⚽ ${ev.home} vs ${ev.away} | ${ev.phase}`;
+
+    if (isSpain) {
+      title = `🇪🇸 🔴🟡🔴 ${ev.home} vs ${ev.away} | ${ev.phase}`;
+    }
 
     const tv = getTVInfo(ev.home, ev.away, ev.phase);
 
@@ -392,6 +398,11 @@ function buildICS(events) {
     lines.push(`DESCRIPTION:${escapeICS(description)}`);
     lines.push(`LOCATION:${escapeICS(ev.venue)}`);
     lines.push(`CATEGORIES:${escapeICS(ev.phase)}`);
+    if (isSpain) {
+      // Intentamos forzar color en los clientes que lo soporten (Apple, Outlook, etc)
+      lines.push('COLOR:#EF4444'); 
+      lines.push('X-APPLE-CALENDAR-COLOR:#EF4444');
+    }
     // Alarma 30 min antes
     lines.push('BEGIN:VALARM');
     lines.push('TRIGGER:-PT30M');

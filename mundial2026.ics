@@ -615,10 +615,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido43@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260615T180000
 DTEND;TZID=Europe/Madrid:20260615T195000
-SUMMARY:⚽ España vs Cabo Verde | Grupo H
+SUMMARY:🇪🇸 🔴🟡🔴 España vs Cabo Verde | Fase de Grupos
 DESCRIPTION:📅 Fase de Grupos — Grupo H\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n🇪🇸 Partido de España — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nEl análisis detallado con el Agente Editor\, noticias y posibles alineaciones se publicará automáticamente aquí la mañana del partido (2026-06-15).\n\n---\nGenerado automáticamente • Mundial 2026 Calendar
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Fase de Grupos
+COLOR:#EF4444
+X-APPLE-CALENDAR-COLOR:#EF4444
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -643,10 +645,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido45@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260621T180000
 DTEND;TZID=Europe/Madrid:20260621T195000
-SUMMARY:⚽ España vs Arabia Saudí | Grupo H
+SUMMARY:🇪🇸 🔴🟡🔴 España vs Arabia Saudí | Fase de Grupos
 DESCRIPTION:📅 Fase de Grupos — Grupo H\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n🇪🇸 Partido de España — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nEl análisis detallado con el Agente Editor\, noticias y posibles alineaciones se publicará automáticamente aquí la mañana del partido (2026-06-21).\n\n---\nGenerado automáticamente • Mundial 2026 Calendar
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Fase de Grupos
+COLOR:#EF4444
+X-APPLE-CALENDAR-COLOR:#EF4444
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -671,10 +675,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido47@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260627T020000
 DTEND;TZID=Europe/Madrid:20260627T035000
-SUMMARY:⚽ Uruguay vs España | Grupo H
+SUMMARY:🇪🇸 🔴🟡🔴 Uruguay vs España | Fase de Grupos
 DESCRIPTION:📅 Fase de Grupos — Grupo H\n🏟️ Estadio Akron\, Guadalajara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n🇪🇸 Partido de España — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nEl análisis detallado con el Agente Editor\, noticias y posibles alineaciones se publicará automáticamente aquí la mañana del partido (2026-06-27).\n\n---\nGenerado automáticamente • Mundial 2026 Calendar
 LOCATION:Estadio Akron\, Guadalajara
 CATEGORIES:Fase de Grupos
+COLOR:#EF4444
+X-APPLE-CALENDAR-COLOR:#EF4444
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
