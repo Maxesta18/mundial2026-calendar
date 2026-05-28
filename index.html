@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚽ Mundial 2026 - Calendario Automático</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --primary: #10b981;
+            --primary-hover: #059669;
+            --apple: #f8fafc;
+            --apple-hover: #e2e8f0;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+                radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+                radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        h1 {
+            font-weight: 800;
+            font-size: 28px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 16px;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-google {
+            background-color: var(--primary);
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-google:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-apple {
+            background-color: var(--apple);
+            color: #0f172a;
+            box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-apple:hover {
+            background-color: var(--apple-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(255, 255, 255, 0.2);
+        }
+
+        .features {
+            text-align: left;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .feature-item span {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">🏆</div>
+        <h1>Mundial 2026</h1>
+        <p>Suscríbete al calendario definitivo. Alineaciones, noticias en tiempo real y retransmisión directa en tu móvil.</p>
+
+        <!-- Google Calendar Link -->
+        <a id="btnGoogle" href="#" class="btn btn-google">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2V6M8 2V6M3 10H21M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Añadir a Google Calendar
+        </a>
+
+        <!-- Apple/Outlook/Native Link -->
+        <a id="btnApple" href="#" class="btn btn-apple">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2ZM11 19.938C7.054 19.444 4 16.082 4 12C4 7.918 7.054 4.556 11 4.062V19.938ZM13 4.062C16.946 4.556 20 7.918 20 12C20 16.082 16.946 19.444 13 19.938V4.062Z" />
+            </svg>
+            Añadir a Apple / Outlook
+        </a>
+
+        <div class="features">
+            <div class="feature-item"><span>⚡</span> Actualización automática diaria</div>
+            <div class="feature-item"><span>📰</span> Noticias e imágenes de Marca y AS</div>
+            <div class="feature-item"><span>⏰</span> Alarma 30 min antes de cada partido</div>
+        </div>
+    </div>
+
+    <script>
+        // Obtenemos la URL actual donde está alojado este index.html (ej. en Netlify)
+        // Y le añadimos el archivo mundial2026.ics
+        const baseUrl = window.location.href.split('?')[0].replace(/\/$/, "");
+        const icsUrl = baseUrl + "/mundial2026.ics";
+
+        // Magia para Google Calendar (redirige directo a la web/app para añadirlo)
+        const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=webcal://${icsUrl.replace(/^https?:\/\//, '')}`;
+        
+        // Magia para iOS/Apple/Outlook (el protocolo webcal abre la app nativa)
+        const appleCalendarUrl = `webcal://${icsUrl.replace(/^https?:\/\//, '')}`;
+
+        document.getElementById('btnGoogle').href = googleCalendarUrl;
+        document.getElementById('btnApple').href = appleCalendarUrl;
+    </script>
+</body>
+</html>
