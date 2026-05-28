@@ -34,7 +34,23 @@ function startWhatsAppBot() {
       mainGroupId = notification.chatId;
       const chat = await client.getChatById(notification.chatId);
       
-      const welcomeMsg = `🐒 ¡Silencio todo el mundo! Ha llegado el Mono Maldini.\\n\\nNacho, Andreu, Pepe y tú (sea quien sea el que me ha metido aquí)... preparaos.\\nDurante este mes vamos a vivir el Mundial 2026 como Dios manda.\\n\\n📅 **PASO 1: EL CALENDARIO**\\nTodos los partidos en vuestro móvil. Suscribíos aquí:\\n👉 webcal://94.143.142.200/mundial.ics\\n(O el enlace que tengáis guardado).\\n\\n⚽ **PASO 2: LA PORRA OFICIAL**\\nSe acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:\\n👉 http://94.143.142.200\\n\\nOs estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".\\n\\n¡Que ruede el balón, pringaos!`;
+      const welcomeMsg = `🐒 ¡Silencio todo el mundo! Ha llegado el Mono Maldini.
+
+Nacho, Andreu, Pepe y tú (sea quien sea el que me ha metido aquí)... preparaos.
+Durante este mes vamos a vivir el Mundial 2026 como Dios manda.
+
+📅 *PASO 1: EL CALENDARIO*
+Todos los partidos en vuestro móvil. Suscribíos aquí:
+👉 webcal://94.143.142.200/mundial.ics
+(O el enlace que tengáis guardado).
+
+⚽ *PASO 2: LA PORRA OFICIAL*
+Se acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:
+👉 http://94.143.142.200
+
+Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".
+
+¡Que ruede el balón, pringaos!`;
       
       chat.sendMessage(welcomeMsg);
     }
@@ -54,7 +70,23 @@ function startWhatsAppBot() {
 
     // Comandos Manuales
     if (text === '!empezar') {
-      const welcomeMsg = `🐒 ¡Silencio todo el mundo! Ha llegado el Mono Maldini.\\n\\nNacho, Andreu, Pepe y tú (sea quien sea el que me ha metido aquí)... preparaos.\\nDurante este mes vamos a vivir el Mundial 2026 como Dios manda.\\n\\n📅 **PASO 1: EL CALENDARIO**\\nTodos los partidos en vuestro móvil. Suscribíos aquí:\\n👉 webcal://94.143.142.200/mundial.ics\\n(O el enlace que tengáis guardado).\\n\\n⚽ **PASO 2: LA PORRA OFICIAL**\\nSe acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:\\n👉 http://94.143.142.200\\n\\nOs estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".\\n\\n¡Que ruede el balón, pringaos!`;
+      const welcomeMsg = `🐒 ¡Silencio todo el mundo! Ha llegado el Mono Maldini.
+
+Nacho, Andreu, Pepe y tú (sea quien sea el que me ha metido aquí)... preparaos.
+Durante este mes vamos a vivir el Mundial 2026 como Dios manda.
+
+📅 *PASO 1: EL CALENDARIO*
+Todos los partidos en vuestro móvil. Suscribíos aquí:
+👉 webcal://94.143.142.200/mundial.ics
+(O el enlace que tengáis guardado).
+
+⚽ *PASO 2: LA PORRA OFICIAL*
+Se acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:
+👉 http://94.143.142.200
+
+Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".
+
+¡Que ruede el balón, pringaos!`;
       return msg.reply(welcomeMsg);
     }
     
@@ -114,7 +146,7 @@ El usuario que te escribe se llama: ${userName}. Responde a este mensaje: "${use
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'mistralai/mistral-7b-instruct:free',
+        model: 'openai/gpt-4o-mini',
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userMessage }
@@ -164,7 +196,7 @@ Felicita con condescendencia al primero, y humilla brutalmente al último clasif
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'mistralai/mistral-7b-instruct:free',
+        model: 'openai/gpt-4o-mini',
         messages: [{ role: 'system', content: systemPrompt }]
       })
     });
