@@ -12,6 +12,7 @@
   "dependencies": {
     "cheerio": "^1.2.0",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "node-cron": "^4.2.1",
     "qrcode-terminal": "^0.12.0",

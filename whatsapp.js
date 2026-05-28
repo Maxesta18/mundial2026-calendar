@@ -4,7 +4,7 @@ const qrcode = require('qrcode-terminal');
 let client;
 let isReady = false;
 let mainGroupId = null;
-const secret = '74636c79e7726bb327429909a2bd92debf7c9243cec81b962e8248d777f6b839-1v-ro-ks'.split('').reverse().join('');
+require('dotenv').config();
 
 function startWhatsAppBot() {
   console.log('Iniciando bot de WhatsApp...');
@@ -136,11 +136,11 @@ Tu personalidad es una mezcla de:
 El usuario que te escribe se llama: ${userName}. Responde a este mensaje: "${userMessage}"`;
 
   try {
-    const secret = '74636c79e7726bb327429909a2bd92debf7c9243cec81b962e8248d777f6b839-1v-ro-ks'.split('').reverse().join('');
+    require('dotenv').config();
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY || secret}`,
+        'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY }`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
