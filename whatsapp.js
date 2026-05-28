@@ -161,6 +161,8 @@ El usuario que te escribe se llama: ${userName}. Responde a este mensaje: "${use
       },
       body: JSON.stringify({
         model: 'google/gemma-2-9b-it:free',
+        temperature: 1.2, // Creatividad alta (caótico)
+        max_tokens: 150,  // Respuesta corta
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userMessage }
@@ -211,6 +213,8 @@ Felicita con condescendencia al primero, y humilla brutalmente al último clasif
       },
       body: JSON.stringify({
         model: 'google/gemma-2-9b-it:free',
+        temperature: 0.9, // Creatividad media-alta
+        max_tokens: 200,
         messages: [{ role: 'system', content: systemPrompt }]
       })
     });
@@ -236,6 +240,8 @@ Escribe solo 1 o 2 frases rápidas y usa algún emoji.`;
       },
       body: JSON.stringify({
         model: 'google/gemma-2-9b-it:free',
+        temperature: 1.4, // Muy caótico para interrupciones
+        max_tokens: 100,
         messages: [{ role: 'system', content: systemPrompt }]
       })
     });
