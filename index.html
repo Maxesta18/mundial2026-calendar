@@ -178,6 +178,80 @@
         </div>
     </div>
 
+    <!-- NUEVA SECCIÓN DE PARTIDOS -->
+    <div class="matches-container">
+        <h2>Calendario de Partidos</h2>
+        <div id="matches-grid" class="matches-grid">
+            <p style="text-align:center; color: var(--text-muted); width: 100%;">Cargando partidos...</p>
+        </div>
+    </div>
+
+    <style>
+        body {
+            flex-direction: column;
+            padding: 40px 20px;
+            height: auto;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .matches-container {
+            max-width: 1000px;
+            width: 100%;
+            margin-top: 50px;
+        }
+        .matches-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 800;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .matches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .match-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+        .match-card:hover {
+            transform: translateY(-5px);
+        }
+        .match-teams {
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            color: white;
+        }
+        .match-details {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+        }
+        .match-brief {
+            font-size: 12px;
+            color: #38bdf8;
+            margin-top: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: left;
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+
     <script>
         // Obtenemos la URL actual donde está alojado este index.html (ej. en Netlify)
         // Y le añadimos el archivo mundial2026.ics
@@ -192,6 +266,30 @@
 
         document.getElementById('btnGoogle').href = googleCalendarUrl;
         document.getElementById('btnApple').href = appleCalendarUrl;
+
+        // Cargar los partidos desde el JSON
+        fetch('matches.json')
+            .then(res => res.json())
+            .then(data => {
+                const grid = document.getElementById('matches-grid');
+                grid.innerHTML = '';
+                // Mostrar solo los primeros 12 para la landing page
+                data.slice(0, 12).forEach(match => {
+                    const card = document.createElement('div');
+                    card.className = 'match-card';
+                    card.innerHTML = `
+                        <div class="match-details">🗓️ ${match.date} | ⏰ ${match.time}</div>
+                        <div class="match-teams">${match.home} vs ${match.away}</div>
+                        <div class="match-details">📍 ${match.venue}</div>
+                        <div class="match-details">🏆 ${match.phase}</div>
+                        <div class="match-brief">${match.brief || ''}</div>
+                    `;
+                    grid.appendChild(card);
+                });
+            })
+            .catch(err => {
+                document.getElementById('matches-grid').innerHTML = '<p style="text-align:center; color: var(--text-muted); width: 100%;">No se han podido cargar los partidos.</p>';
+            });
     </script>
 </body>
 </html>

@@ -463,6 +463,10 @@ async function main() {
 
   fs.writeFileSync(OUTPUT_FILE, icsContent, 'utf8');
   console.log(`\n✅ Archivo generado: ${OUTPUT_FILE}`);
+  
+  // Guardar también un JSON para la landing page
+  fs.writeFileSync('matches.json', JSON.stringify(enriched, null, 2), 'utf8');
+  console.log(`✅ Archivo JSON generado: matches.json`);
   console.log(`📏 Tamaño: ${(fs.statSync(OUTPUT_FILE).size / 1024).toFixed(1)} KB`);
   console.log('\n🚀 PASOS SIGUIENTES:');
   console.log('1. Sube mundial2026.ics a Netlify (arrastra el archivo al panel)');
