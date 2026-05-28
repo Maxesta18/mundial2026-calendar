@@ -42,7 +42,7 @@ Durante este mes vamos a vivir el Mundial 2026 como Dios manda.
 
 📅 *PASO 1: EL CALENDARIO*
 Todos los partidos en vuestro móvil. Suscribíos aquí:
-👉 webcal://94.143.142.200/mundial.ics
+👉 webcal://94.143.142.200/mundial2026.ics
 (O el enlace que tengáis guardado).
 
 ⚽ *PASO 2: LA PORRA OFICIAL*
@@ -78,7 +78,7 @@ Durante este mes vamos a vivir el Mundial 2026 como Dios manda.
 
 📅 *PASO 1: EL CALENDARIO*
 Todos los partidos en vuestro móvil. Suscribíos aquí:
-👉 webcal://94.143.142.200/mundial.ics
+👉 webcal://94.143.142.200/mundial2026.ics
 (O el enlace que tengáis guardado).
 
 ⚽ *PASO 2: LA PORRA OFICIAL*
@@ -98,6 +98,22 @@ Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cad
     if (text === '!clasificacion') {
       // Debería conectarse a la BBDD, lo pondré de forma provisional
       return msg.reply('Paciencia, inútil, aún estoy calculando la clasificación. Pero seguro que tú vas el último.');
+    }
+
+    if (text === '!reglas' || text === '!funcionamiento') {
+      const reglasMsg = `🐒 A ver, pandilla de inútiles, os explico cómo funciona La Porra porque veo que no os da el cerebro:
+
+⚽ *ACIERTO EXACTO (3 Puntos)*
+Si dices que España gana 2-0 y el partido acaba exactamente 2-0, te llevas 3 puntazos. Eres un visionario.
+
+🎯 *ACIERTO DE GANADOR (1 Punto)*
+Si dices que España gana 2-0 pero acaban 1-0, al menos has acertado quién gana. Te llevas 1 punto de consolación.
+
+❌ *FALLO TOTAL (0 Puntos)*
+Si dices que gana España y empatan o pierden... 0 puntos y te humillaré públicamente por la mañana.
+
+¡Venga, a apostar a la web clandestina VIP!`;
+      return msg.reply(reglasMsg);
     }
 
     if (text === '!partidos') {
