@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const cron = require('node-cron');
 const { savePrediction, getLeaderboard } = require('./database');
-const { startWhatsAppBot, sendBroadcastMessage, getMaldiniBroadcast } = require('./whatsapp');
+const { startWhatsAppBot, sendBroadcastMessage, getMaldiniBroadcast, getProactiveMessage } = require('./whatsapp');
 
 const app = express();
 // Puerto 80 para que entren sin poner :3000
@@ -62,6 +62,17 @@ app.listen(PORT, () => {
       await sendBroadcastMessage(null, maldiniMessage);
     } catch (err) {
       console.error('Error en el cron diario:', err);
+    }
+  });
+
+  // Programar un cron que hable solo cada 6 horas para caldear el ambiente
+  cron.schedule('0 */6 * * *', async () => {
+    console.log('⏰ Ejecutando interacción espontánea de Maldini...');
+    try {
+      const randomMsg = await getProactiveMessage();
+      await sendBroadcastMessage(null, randomMsg);
+    } catch (err) {
+      console.error('Error en interacción proactiva:', err);
     }
   });
 });

@@ -84,7 +84,7 @@ Todos los partidos en vuestro móvil. Suscribíos aquí:
 Se acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:
 👉 http://94.143.142.200
 
-Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".
+Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme simplemente llamándome "mono" o mencionando mi nombre.
 
 ¡Que ruede el balón, pringaos!`;
       return msg.reply(welcomeMsg);
@@ -104,17 +104,21 @@ Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cad
     }
 
     // INTERACCIÓN CON IA (Mono Maldini)
-    const isDirectInvocation = text.toLowerCase().startsWith('!mono ');
+    const lowerText = text.toLowerCase();
+    
+    // Si dicen la palabra "mono" suelta, es invocación directa
+    const isDirectInvocation = /\\bmono\\b/i.test(lowerText);
+    
     const keywords = ['fútbol', 'maldini', 'mundial', 'partido', 'apuesta', 'porra', 'gol', 'árbitro', 'españa'];
-    const hasKeyword = keywords.some(k => text.toLowerCase().includes(k));
+    const hasKeyword = keywords.some(k => lowerText.includes(k));
     
     // Disparador aleatorio del 5%
     const randomTrigger = Math.random() < 0.05;
 
     // Solo respondemos si nos invocan directamente, hay palabra clave, o cae el 5% aleatorio
     if (isDirectInvocation || hasKeyword || randomTrigger) {
-      // Extraemos la pregunta si es invocación directa
-      const userPrompt = isDirectInvocation ? text.substring(6) : text;
+      // Le pasamos todo el texto a la IA para que lo responda
+      const userPrompt = text;
       
       try {
         const aiResponse = await getMaldiniResponse(userPrompt, msg._data.notifyName || 'Alguien del grupo');
@@ -207,8 +211,34 @@ Felicita con condescendencia al primero, y humilla brutalmente al último clasif
   }
 }
 
+async function getProactiveMessage() {
+  const systemPrompt = `Eres "El Mono Maldini", un experto en fútbol muy pedante, cuñado y tóxico.
+Tu tarea ahora mismo es interrumpir la rutina del grupo de WhatsApp de la Porra del Mundial enviando un mensaje aleatorio para calentar el ambiente.
+Puedes hablar de un jugador muy extraño, meterte con los participantes por no tener ni idea de fútbol, soltar una curiosidad ridícula de un Mundial pasado, o simplemente recordarles que eres el rey del grupo. 
+Escribe solo 1 o 2 frases rápidas y usa algún emoji.`;
+
+  try {
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'google/gemma-2-9b-it:free',
+        messages: [{ role: 'system', content: systemPrompt }]
+      })
+    });
+    const data = await response.json();
+    return data.choices[0].message.content;
+  } catch (error) {
+    return '¿Estáis vivos o qué? Que empiece ya el puto Mundial.';
+  }
+}
+
 module.exports = {
   startWhatsAppBot,
   sendBroadcastMessage,
-  getMaldiniBroadcast
+  getMaldiniBroadcast,
+  getProactiveMessage
 };
