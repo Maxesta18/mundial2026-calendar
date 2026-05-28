@@ -88,16 +88,16 @@ Se acabaron las excusas. Las apuestas se hacen en nuestra web clandestina VIP:
 Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme simplemente llamándome "mono" o mencionando mi nombre.
 
 ¡Que ruede el balón, pringaos!`;
-      return msg.reply(welcomeMsg);
+      return client.sendMessage(msg.from, welcomeMsg);
     }
     
     if (text === '!porra') {
-      return msg.reply('Deja de perder el tiempo y apuesta de una vez: https://mundial-magico.netlify.app/');
+      return client.sendMessage(msg.from, 'Deja de perder el tiempo y apuesta de una vez: https://astonishing-florentine-ac471b.netlify.app/');
     }
 
     if (text === '!clasificacion') {
       // Debería conectarse a la BBDD, lo pondré de forma provisional
-      return msg.reply('Paciencia, inútil, aún estoy calculando la clasificación. Pero seguro que tú vas el último.');
+      return client.sendMessage(msg.from, 'Paciencia, inútil, aún estoy calculando la clasificación. Pero seguro que tú vas el último.');
     }
 
     if (text === '!reglas' || text === '!funcionamiento') {
@@ -113,11 +113,11 @@ Si dices que España gana 2-0 pero acaban 1-0, al menos has acertado quién gana
 Si dices que gana España y empatan o pierden... 0 puntos y te humillaré públicamente por la mañana.
 
 ¡Venga, a apostar a la web clandestina VIP!`;
-      return msg.reply(reglasMsg);
+      return client.sendMessage(msg.from, reglasMsg);
     }
 
     if (text === '!partidos') {
-      return msg.reply('Mírate el Google Calendar o entra en la web. No soy tu secretario.');
+      return client.sendMessage(msg.from, 'Mírate el Google Calendar o entra en la web. No soy tu secretario.');
     }
 
     // INTERACCIÓN CON IA (Mono Maldini)
