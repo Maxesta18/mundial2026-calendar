@@ -81,8 +81,8 @@ Todos los partidos en vuestro móvil. Suscribíos aquí:
 (O el enlace que tengáis guardado).
 
 ⚽ *PASO 2: LA PORRA OFICIAL*
-Se acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:
-👉 http://94.143.142.200
+Se acabaron las excusas. Las apuestas se hacen en nuestra web clandestina VIP:
+👉 https://astonishing-florentine-ac471b.netlify.app
 
 Os estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme simplemente llamándome "mono" o mencionando mi nombre.
 
