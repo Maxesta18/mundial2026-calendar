@@ -28,6 +28,18 @@ function startWhatsAppBot() {
     console.log('✅ Bot de WhatsApp listo y conectado!');
   });
 
+  client.on('group_join', async (notification) => {
+    // Si somos nosotros los que nos acabamos de unir al grupo
+    if (notification.recipientIds.includes(client.info.wid._serialized)) {
+      mainGroupId = notification.chatId;
+      const chat = await client.getChatById(notification.chatId);
+      
+      const welcomeMsg = `🐒 ¡Silencio todo el mundo! Ha llegado el Mono Maldini.\\n\\nNacho, Andreu, Pepe y tú (sea quien sea el que me ha metido aquí)... preparaos.\\nDurante este mes vamos a vivir el Mundial 2026 como Dios manda.\\n\\n📅 **PASO 1: EL CALENDARIO**\\nTodos los partidos en vuestro móvil. Suscribíos aquí:\\n👉 webcal://94.143.142.200/mundial.ics\\n(O el enlace que tengáis guardado).\\n\\n⚽ **PASO 2: LA PORRA OFICIAL**\\nSe acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:\\n👉 http://94.143.142.200\\n\\nOs estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".\\n\\n¡Que ruede el balón, pringaos!`;
+      
+      chat.sendMessage(welcomeMsg);
+    }
+  });
+
   client.on('message', async (msg) => {
     const text = msg.body.trim();
     const isGroup = msg.from.includes('@g.us');
@@ -42,7 +54,8 @@ function startWhatsAppBot() {
 
     // Comandos Manuales
     if (text === '!empezar') {
-      return msg.reply('🐒 ¡Atención pringaos! Soy el Mono Maldini, la única forma inteligente de seguir el Mundial 2026 en este grupo.\\n\\nMis reglas:\\n1. Se acabaron las apuestas de bar cutres. La Porra Oficial se hace aquí: https://mundial-magico.netlify.app/ \\n2. Podéis consultarme dudas insultándome con "!mono <pregunta>".\\n3. Os estaré vigilando. Quien falle sus apuestas será ridiculizado públicamente cada mañana.\\n\\nPara ver la clasificación en cualquier momento, escribid !clasificacion.');
+      const welcomeMsg = `🐒 ¡Silencio todo el mundo! Ha llegado el Mono Maldini.\\n\\nNacho, Andreu, Pepe y tú (sea quien sea el que me ha metido aquí)... preparaos.\\nDurante este mes vamos a vivir el Mundial 2026 como Dios manda.\\n\\n📅 **PASO 1: EL CALENDARIO**\\nTodos los partidos en vuestro móvil. Suscribíos aquí:\\n👉 webcal://94.143.142.200/mundial.ics\\n(O el enlace que tengáis guardado).\\n\\n⚽ **PASO 2: LA PORRA OFICIAL**\\nSe acabaron las excusas. Las apuestas se hacen en nuestra web clandestina:\\n👉 http://94.143.142.200\\n\\nOs estaré vigilando. Quien falle sus apuestas será humillado públicamente cada mañana a las 09:00. Y si queréis hablar de fútbol, podéis invocarme diciendo "!mono <pregunta>".\\n\\n¡Que ruede el balón, pringaos!`;
+      return msg.reply(welcomeMsg);
     }
     
     if (text === '!porra') {
