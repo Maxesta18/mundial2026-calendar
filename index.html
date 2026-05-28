@@ -250,6 +250,17 @@
             padding: 10px;
             border-radius: 8px;
         }
+        .spain-match {
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(234, 179, 8, 0.9)) !important;
+            border-color: rgba(255, 255, 255, 0.3) !important;
+        }
+        .spain-match .match-brief {
+            color: white !important;
+            background: rgba(0,0,0,0.4) !important;
+        }
+        .spain-match .match-details {
+            color: rgba(255, 255, 255, 0.9) !important;
+        }
     </style>
 
     <script>
@@ -276,7 +287,8 @@
                 // Mostrar solo los primeros 12 para la landing page
                 data.slice(0, 12).forEach(match => {
                     const card = document.createElement('div');
-                    card.className = 'match-card';
+                    const isSpain = match.home.includes('España') || match.away.includes('España');
+                    card.className = isSpain ? 'match-card spain-match' : 'match-card';
                     card.innerHTML = `
                         <div class="match-details">🗓️ ${match.date} | ⏰ ${match.time}</div>
                         <div class="match-teams">${match.home} vs ${match.away}</div>
