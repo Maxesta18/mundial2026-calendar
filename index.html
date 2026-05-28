@@ -176,6 +176,23 @@
             <div class="feature-item"><span>📰</span> Noticias e imágenes de Marca y AS</div>
             <div class="feature-item"><span>⏰</span> Alarma 30 min antes de cada partido</div>
         </div>
+
+        <!-- LA PORRA -->
+        <div class="porra-container" style="margin-top:30px; margin-bottom:30px;">
+            <div class="porra-title">💸 La Porra Oficial</div>
+            <form class="porra-form" id="porraForm">
+                <input type="text" id="porraName" class="porra-input" placeholder="Tu nombre (ej. Juanma)" required>
+                <select id="porraMatch" class="porra-input" required>
+                    <option value="" disabled selected>Elige un partido...</option>
+                </select>
+                <div class="porra-scores">
+                    <input type="number" id="porraHome" class="porra-input porra-score-input" min="0" max="15" placeholder="0" required>
+                    <span>-</span>
+                    <input type="number" id="porraAway" class="porra-input porra-score-input" min="0" max="15" placeholder="0" required>
+                </div>
+                <button type="submit" class="porra-submit">🎲 Enviar mi Apuesta</button>
+            </form>
+        </div>
     </div>
 
     <!-- NUEVA SECCIÓN DE PARTIDOS -->
@@ -261,30 +278,35 @@
         .spain-match .match-details {
             color: rgba(255, 255, 255, 0.9) !important;
         }
+        .porra-container {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 20px;
+        }
+        .porra-title { font-size: 20px; font-weight: bold; text-align: center; margin-bottom: 15px; color: #EAB308; }
+        .porra-form { display: flex; flex-direction: column; gap: 15px; }
+        .porra-input { padding: 12px; border-radius: 8px; border: none; background: #fff; color: #000; }
+        .porra-scores { display: flex; align-items: center; justify-content: center; gap: 10px; }
+        .porra-score-input { width: 60px; text-align: center; font-size: 24px; font-weight: bold; }
+        .porra-submit { background: #10B981; color: white; border: none; padding: 15px; border-radius: 8px; font-weight: bold; cursor: pointer; }
     </style>
 
     <script>
-        // Obtenemos la URL actual donde está alojado este index.html (ej. en Netlify)
-        // Y le añadimos el archivo mundial2026.ics con ?v=4 para forzar a Google a ignorar la caché antigua
         const baseUrl = window.location.href.split('?')[0].replace(/\/$/, "");
         const icsUrl = baseUrl + "/mundial2026.ics?v=4";
-
-        // Magia para Google Calendar (redirige directo a la web/app para añadirlo)
         const googleCalendarUrl = `https://calendar.google.com/calendar/render?cid=webcal://${icsUrl.replace(/^https?:\/\//, '')}`;
-        
-        // Magia para iOS/Apple/Outlook (el protocolo webcal abre la app nativa)
         const appleCalendarUrl = `webcal://${icsUrl.replace(/^https?:\/\//, '')}`;
 
         document.getElementById('btnGoogle').href = googleCalendarUrl;
         document.getElementById('btnApple').href = appleCalendarUrl;
 
-        // Cargar los partidos desde el JSON
         fetch('matches.json')
             .then(res => res.json())
             .then(data => {
                 const grid = document.getElementById('matches-grid');
+                const select = document.getElementById('porraMatch');
                 grid.innerHTML = '';
-                // Mostrar solo los primeros 12 para la landing page
                 data.slice(0, 12).forEach(match => {
                     const card = document.createElement('div');
                     const isSpain = match.home.includes('España') || match.away.includes('España');
@@ -297,11 +319,30 @@
                         <div class="match-brief">${match.brief || ''}</div>
                     `;
                     grid.appendChild(card);
+                    const opt = document.createElement('option');
+                    opt.value = match.id;
+                    opt.textContent = `${match.home} vs ${match.away}`;
+                    select.appendChild(opt);
                 });
-            })
-            .catch(err => {
-                document.getElementById('matches-grid').innerHTML = '<p style="text-align:center; color: var(--text-muted); width: 100%;">No se han podido cargar los partidos.</p>';
             });
+
+        document.getElementById('porraForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const payload = {
+                name: document.getElementById('porraName').value,
+                matchId: document.getElementById('porraMatch').value,
+                homeScore: document.getElementById('porraHome').value,
+                awayScore: document.getElementById('porraAway').value
+            };
+            try {
+                const res = await fetch('/api/porra', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                alert('Apuesta enviada');
+            } catch (err) { alert('Error enviando apuesta'); }
+        });
     </script>
 </body>
 </html>
