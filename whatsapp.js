@@ -146,7 +146,7 @@ El usuario que te escribe se llama: ${userName}. Responde a este mensaje: "${use
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'openai/gpt-4o-mini',
+        model: 'google/gemma-2-9b-it:free',
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userMessage }
@@ -196,7 +196,7 @@ Felicita con condescendencia al primero, y humilla brutalmente al último clasif
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'openai/gpt-4o-mini',
+        model: 'google/gemma-2-9b-it:free',
         messages: [{ role: 'system', content: systemPrompt }]
       })
     });
