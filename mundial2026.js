@@ -387,7 +387,7 @@ function buildICS(events) {
       ev.brief || 'Brief pendiente de generación.',
       ``,
       `---`,
-      `Generado automáticamente • Mundial 2026 Calendar`,
+      `Escrito con la chorra - Mundial 2026`,
     ].join('\n');
 
     lines.push('BEGIN:VEVENT');
@@ -456,7 +456,7 @@ async function main() {
     
     // Si estamos en modo diario y no es el partido de hoy, nos saltamos la llamada a la API
     if (isTodayMode && match.date !== todayStr) {
-       brief = `El análisis detallado con el Agente Editor, noticias y posibles alineaciones se publicará automáticamente aquí la mañana del partido (${match.date}).`;
+       brief = `Nuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.`;
     } else {
        console.log(`${progress} 🔍 Generando brief: ${match.home} vs ${match.away} (${match.phase})`);
        brief = await generateBrief(match);
