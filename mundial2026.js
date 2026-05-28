@@ -369,9 +369,34 @@ function buildICS(events) {
 
     const isSpain = ev.home.includes('España') || ev.away.includes('España');
 
+    let groupColor = '#3B82F6';
+    let groupEmoji = '⚽';
+    
+    if (ev.phase === 'Fase de Grupos') {
+       if (ev.group === 'Grupo A') { groupColor = '#3B82F6'; groupEmoji = '🔵'; }
+       else if (ev.group === 'Grupo B') { groupColor = '#F59E0B'; groupEmoji = '🟠'; }
+       else if (ev.group === 'Grupo C') { groupColor = '#8B5CF6'; groupEmoji = '🟣'; }
+       else if (ev.group === 'Grupo D') { groupColor = '#10B981'; groupEmoji = '🟢'; }
+       else if (ev.group === 'Grupo E') { groupColor = '#EC4899'; groupEmoji = '🌸'; }
+       else if (ev.group === 'Grupo F') { groupColor = '#06B6D4'; groupEmoji = '🧊'; }
+       else if (ev.group === 'Grupo G') { groupColor = '#F43F5E'; groupEmoji = '🔴'; }
+       else if (ev.group === 'Grupo H') { groupColor = '#84CC16'; groupEmoji = '🍏'; }
+       else if (ev.group === 'Grupo I') { groupColor = '#6366F1'; groupEmoji = '🌌'; }
+       else if (ev.group === 'Grupo J') { groupColor = '#14B8A6'; groupEmoji = '🌊'; }
+       else if (ev.group === 'Grupo K') { groupColor = '#F97316'; groupEmoji = '🍊'; }
+       else if (ev.group === 'Grupo L') { groupColor = '#A855F7'; groupEmoji = '🍇'; }
+    } else {
+       groupColor = '#EAB308'; // Gold for knockout phases
+       groupEmoji = '🏆';
+    }
+
+    if (isSpain) {
+      groupColor = '#EF4444';
+    }
+
     let title = ev.phase === 'Fase de Grupos'
-      ? `⚽ ${ev.home} vs ${ev.away} | ${ev.group}`
-      : `⚽ ${ev.home} vs ${ev.away} | ${ev.phase}`;
+      ? `${groupEmoji} ${ev.home} vs ${ev.away} | ${ev.group}`
+      : `${groupEmoji} ${ev.home} vs ${ev.away} | ${ev.phase}`;
 
     if (isSpain) {
       title = `🇪🇸 🔴🟡🔴 ${ev.home} vs ${ev.away} | ${ev.phase}`;
@@ -403,11 +428,10 @@ function buildICS(events) {
     lines.push(`DESCRIPTION:${escapeICS(description)}`);
     lines.push(`LOCATION:${escapeICS(ev.venue)}`);
     lines.push(`CATEGORIES:${escapeICS(ev.phase)}`);
-    if (isSpain) {
-      // Intentamos forzar color en los clientes que lo soporten (Apple, Outlook, etc)
-      lines.push('COLOR:#EF4444'); 
-      lines.push('X-APPLE-CALENDAR-COLOR:#EF4444');
-    }
+    
+    // Intentamos forzar color en los clientes que lo soporten (Apple, Outlook, etc)
+    lines.push(`COLOR:${groupColor}`); 
+    lines.push(`X-APPLE-CALENDAR-COLOR:${groupColor}`);
     // Alarma 30 min antes
     lines.push('BEGIN:VALARM');
     lines.push('TRIGGER:-PT30M');

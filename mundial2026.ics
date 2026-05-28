@@ -27,10 +27,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido1@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260611T210000
 DTEND;TZID=Europe/Madrid:20260611T225000
-SUMMARY:⚽ México vs Sudáfrica | Grupo A
+SUMMARY:🔵 México vs Sudáfrica | Grupo A
 DESCRIPTION:📅 Fase de Grupos — Grupo A\n🏟️ Estadio Azteca\, Ciudad de México\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio Azteca\, Ciudad de México
 CATEGORIES:Fase de Grupos
+COLOR:#3B82F6
+X-APPLE-CALENDAR-COLOR:#3B82F6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -41,10 +43,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido2@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260612T040000
 DTEND;TZID=Europe/Madrid:20260612T055000
-SUMMARY:⚽ Corea del Sur vs Rep. Checa | Grupo A
+SUMMARY:🔵 Corea del Sur vs Rep. Checa | Grupo A
 DESCRIPTION:📅 Fase de Grupos — Grupo A\n🏟️ Estadio Akron\, Guadalajara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio Akron\, Guadalajara
 CATEGORIES:Fase de Grupos
+COLOR:#3B82F6
+X-APPLE-CALENDAR-COLOR:#3B82F6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -55,10 +59,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido3@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260618T180000
 DTEND;TZID=Europe/Madrid:20260618T195000
-SUMMARY:⚽ Rep. Checa vs Sudáfrica | Grupo A
+SUMMARY:🔵 Rep. Checa vs Sudáfrica | Grupo A
 DESCRIPTION:📅 Fase de Grupos — Grupo A\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Fase de Grupos
+COLOR:#3B82F6
+X-APPLE-CALENDAR-COLOR:#3B82F6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -69,10 +75,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido4@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260619T030000
 DTEND;TZID=Europe/Madrid:20260619T045000
-SUMMARY:⚽ México vs Corea del Sur | Grupo A
+SUMMARY:🔵 México vs Corea del Sur | Grupo A
 DESCRIPTION:📅 Fase de Grupos — Grupo A\n🏟️ Estadio Akron\, Guadalajara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio Akron\, Guadalajara
 CATEGORIES:Fase de Grupos
+COLOR:#3B82F6
+X-APPLE-CALENDAR-COLOR:#3B82F6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -83,10 +91,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido5@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260625T030000
 DTEND;TZID=Europe/Madrid:20260625T045000
-SUMMARY:⚽ Rep. Checa vs México | Grupo A
+SUMMARY:🔵 Rep. Checa vs México | Grupo A
 DESCRIPTION:📅 Fase de Grupos — Grupo A\n🏟️ Estadio Azteca\, Ciudad de México\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio Azteca\, Ciudad de México
 CATEGORIES:Fase de Grupos
+COLOR:#3B82F6
+X-APPLE-CALENDAR-COLOR:#3B82F6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -97,10 +107,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido6@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260625T030000
 DTEND;TZID=Europe/Madrid:20260625T045000
-SUMMARY:⚽ Sudáfrica vs Corea del Sur | Grupo A
+SUMMARY:🔵 Sudáfrica vs Corea del Sur | Grupo A
 DESCRIPTION:📅 Fase de Grupos — Grupo A\n🏟️ Estadio BBVA\, Guadalupe\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio BBVA\, Guadalupe
 CATEGORIES:Fase de Grupos
+COLOR:#3B82F6
+X-APPLE-CALENDAR-COLOR:#3B82F6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -111,10 +123,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido7@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260612T210000
 DTEND;TZID=Europe/Madrid:20260612T225000
-SUMMARY:⚽ Canadá vs Bosnia | Grupo B
+SUMMARY:🟠 Canadá vs Bosnia | Grupo B
 DESCRIPTION:📅 Fase de Grupos — Grupo B\n🏟️ BMO Field\, Toronto\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BMO Field\, Toronto
 CATEGORIES:Fase de Grupos
+COLOR:#F59E0B
+X-APPLE-CALENDAR-COLOR:#F59E0B
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -125,10 +139,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido8@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260613T210000
 DTEND;TZID=Europe/Madrid:20260613T225000
-SUMMARY:⚽ Catar vs Suiza | Grupo B
+SUMMARY:🟠 Catar vs Suiza | Grupo B
 DESCRIPTION:📅 Fase de Grupos — Grupo B\n🏟️ Levi's Stadium\, Santa Clara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Levi's Stadium\, Santa Clara
 CATEGORIES:Fase de Grupos
+COLOR:#F59E0B
+X-APPLE-CALENDAR-COLOR:#F59E0B
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -139,10 +155,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido9@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260618T210000
 DTEND;TZID=Europe/Madrid:20260618T225000
-SUMMARY:⚽ Suiza vs Bosnia | Grupo B
+SUMMARY:🟠 Suiza vs Bosnia | Grupo B
 DESCRIPTION:📅 Fase de Grupos — Grupo B\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Fase de Grupos
+COLOR:#F59E0B
+X-APPLE-CALENDAR-COLOR:#F59E0B
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -153,10 +171,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido10@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260619T000000
 DTEND;TZID=Europe/Madrid:20260619T015000
-SUMMARY:⚽ Canadá vs Catar | Grupo B
+SUMMARY:🟠 Canadá vs Catar | Grupo B
 DESCRIPTION:📅 Fase de Grupos — Grupo B\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Fase de Grupos
+COLOR:#F59E0B
+X-APPLE-CALENDAR-COLOR:#F59E0B
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -167,10 +187,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido11@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260624T210000
 DTEND;TZID=Europe/Madrid:20260624T225000
-SUMMARY:⚽ Suiza vs Canadá | Grupo B
+SUMMARY:🟠 Suiza vs Canadá | Grupo B
 DESCRIPTION:📅 Fase de Grupos — Grupo B\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Fase de Grupos
+COLOR:#F59E0B
+X-APPLE-CALENDAR-COLOR:#F59E0B
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -181,10 +203,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido12@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260624T210000
 DTEND;TZID=Europe/Madrid:20260624T225000
-SUMMARY:⚽ Bosnia vs Catar | Grupo B
+SUMMARY:🟠 Bosnia vs Catar | Grupo B
 DESCRIPTION:📅 Fase de Grupos — Grupo B\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Fase de Grupos
+COLOR:#F59E0B
+X-APPLE-CALENDAR-COLOR:#F59E0B
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -195,10 +219,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido13@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260614T000000
 DTEND;TZID=Europe/Madrid:20260614T015000
-SUMMARY:⚽ Brasil vs Marruecos | Grupo C
+SUMMARY:🟣 Brasil vs Marruecos | Grupo C
 DESCRIPTION:📅 Fase de Grupos — Grupo C\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Fase de Grupos
+COLOR:#8B5CF6
+X-APPLE-CALENDAR-COLOR:#8B5CF6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -209,10 +235,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido14@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260614T030000
 DTEND;TZID=Europe/Madrid:20260614T045000
-SUMMARY:⚽ Haití vs Escocia | Grupo C
+SUMMARY:🟣 Haití vs Escocia | Grupo C
 DESCRIPTION:📅 Fase de Grupos — Grupo C\n🏟️ Gillette Stadium\, Foxborough\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Gillette Stadium\, Foxborough
 CATEGORIES:Fase de Grupos
+COLOR:#8B5CF6
+X-APPLE-CALENDAR-COLOR:#8B5CF6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -223,10 +251,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido15@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260620T000000
 DTEND;TZID=Europe/Madrid:20260620T015000
-SUMMARY:⚽ Brasil vs Haití | Grupo C
+SUMMARY:🟣 Brasil vs Haití | Grupo C
 DESCRIPTION:📅 Fase de Grupos — Grupo C\n🏟️ Gillette Stadium\, Foxborough\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Gillette Stadium\, Foxborough
 CATEGORIES:Fase de Grupos
+COLOR:#8B5CF6
+X-APPLE-CALENDAR-COLOR:#8B5CF6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -237,10 +267,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido16@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260620T030000
 DTEND;TZID=Europe/Madrid:20260620T045000
-SUMMARY:⚽ Escocia vs Marruecos | Grupo C
+SUMMARY:🟣 Escocia vs Marruecos | Grupo C
 DESCRIPTION:📅 Fase de Grupos — Grupo C\n🏟️ Lincoln Financial Field\, Filadelfia\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lincoln Financial Field\, Filadelfia
 CATEGORIES:Fase de Grupos
+COLOR:#8B5CF6
+X-APPLE-CALENDAR-COLOR:#8B5CF6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -251,10 +283,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido17@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260625T000000
 DTEND;TZID=Europe/Madrid:20260625T015000
-SUMMARY:⚽ Escocia vs Brasil | Grupo C
+SUMMARY:🟣 Escocia vs Brasil | Grupo C
 DESCRIPTION:📅 Fase de Grupos — Grupo C\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Fase de Grupos
+COLOR:#8B5CF6
+X-APPLE-CALENDAR-COLOR:#8B5CF6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -265,10 +299,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido18@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260625T000000
 DTEND;TZID=Europe/Madrid:20260625T015000
-SUMMARY:⚽ Marruecos vs Haití | Grupo C
+SUMMARY:🟣 Marruecos vs Haití | Grupo C
 DESCRIPTION:📅 Fase de Grupos — Grupo C\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Fase de Grupos
+COLOR:#8B5CF6
+X-APPLE-CALENDAR-COLOR:#8B5CF6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -279,10 +315,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido19@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260613T030000
 DTEND;TZID=Europe/Madrid:20260613T045000
-SUMMARY:⚽ EE.UU. vs Paraguay | Grupo D
+SUMMARY:🟢 EE.UU. vs Paraguay | Grupo D
 DESCRIPTION:📅 Fase de Grupos — Grupo D\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Fase de Grupos
+COLOR:#10B981
+X-APPLE-CALENDAR-COLOR:#10B981
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -293,10 +331,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido20@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260613T060000
 DTEND;TZID=Europe/Madrid:20260613T075000
-SUMMARY:⚽ Australia vs Turquía | Grupo D
+SUMMARY:🟢 Australia vs Turquía | Grupo D
 DESCRIPTION:📅 Fase de Grupos — Grupo D\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Fase de Grupos
+COLOR:#10B981
+X-APPLE-CALENDAR-COLOR:#10B981
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -307,10 +347,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido21@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260619T060000
 DTEND;TZID=Europe/Madrid:20260619T075000
-SUMMARY:⚽ Turquía vs Paraguay | Grupo D
+SUMMARY:🟢 Turquía vs Paraguay | Grupo D
 DESCRIPTION:📅 Fase de Grupos — Grupo D\n🏟️ Levi's Stadium\, Santa Clara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Levi's Stadium\, Santa Clara
 CATEGORIES:Fase de Grupos
+COLOR:#10B981
+X-APPLE-CALENDAR-COLOR:#10B981
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -321,10 +363,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido22@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260619T210000
 DTEND;TZID=Europe/Madrid:20260619T225000
-SUMMARY:⚽ EE.UU. vs Australia | Grupo D
+SUMMARY:🟢 EE.UU. vs Australia | Grupo D
 DESCRIPTION:📅 Fase de Grupos — Grupo D\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Fase de Grupos
+COLOR:#10B981
+X-APPLE-CALENDAR-COLOR:#10B981
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -335,10 +379,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido23@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T040000
 DTEND;TZID=Europe/Madrid:20260626T055000
-SUMMARY:⚽ Turquía vs EE.UU. | Grupo D
+SUMMARY:🟢 Turquía vs EE.UU. | Grupo D
 DESCRIPTION:📅 Fase de Grupos — Grupo D\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Fase de Grupos
+COLOR:#10B981
+X-APPLE-CALENDAR-COLOR:#10B981
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -349,10 +395,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido24@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T040000
 DTEND;TZID=Europe/Madrid:20260626T055000
-SUMMARY:⚽ Paraguay vs Australia | Grupo D
+SUMMARY:🟢 Paraguay vs Australia | Grupo D
 DESCRIPTION:📅 Fase de Grupos — Grupo D\n🏟️ Levi's Stadium\, Santa Clara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Levi's Stadium\, Santa Clara
 CATEGORIES:Fase de Grupos
+COLOR:#10B981
+X-APPLE-CALENDAR-COLOR:#10B981
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -363,10 +411,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido25@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260614T190000
 DTEND;TZID=Europe/Madrid:20260614T205000
-SUMMARY:⚽ Alemania vs Curazao | Grupo E
+SUMMARY:🌸 Alemania vs Curazao | Grupo E
 DESCRIPTION:📅 Fase de Grupos — Grupo E\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Fase de Grupos
+COLOR:#EC4899
+X-APPLE-CALENDAR-COLOR:#EC4899
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -377,10 +427,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido26@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260615T010000
 DTEND;TZID=Europe/Madrid:20260615T025000
-SUMMARY:⚽ Costa de Marfil vs Ecuador | Grupo E
+SUMMARY:🌸 Costa de Marfil vs Ecuador | Grupo E
 DESCRIPTION:📅 Fase de Grupos — Grupo E\n🏟️ Lincoln Financial Field\, Filadelfia\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lincoln Financial Field\, Filadelfia
 CATEGORIES:Fase de Grupos
+COLOR:#EC4899
+X-APPLE-CALENDAR-COLOR:#EC4899
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -391,10 +443,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido27@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260621T000000
 DTEND;TZID=Europe/Madrid:20260621T015000
-SUMMARY:⚽ Alemania vs Costa de Marfil | Grupo E
+SUMMARY:🌸 Alemania vs Costa de Marfil | Grupo E
 DESCRIPTION:📅 Fase de Grupos — Grupo E\n🏟️ BMO Field\, Toronto\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BMO Field\, Toronto
 CATEGORIES:Fase de Grupos
+COLOR:#EC4899
+X-APPLE-CALENDAR-COLOR:#EC4899
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -405,10 +459,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido28@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260621T020000
 DTEND;TZID=Europe/Madrid:20260621T035000
-SUMMARY:⚽ Ecuador vs Curazao | Grupo E
+SUMMARY:🌸 Ecuador vs Curazao | Grupo E
 DESCRIPTION:📅 Fase de Grupos — Grupo E\n🏟️ Arrowhead Stadium\, Kansas City\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Arrowhead Stadium\, Kansas City
 CATEGORIES:Fase de Grupos
+COLOR:#EC4899
+X-APPLE-CALENDAR-COLOR:#EC4899
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -419,10 +475,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido29@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T000000
 DTEND;TZID=Europe/Madrid:20260626T015000
-SUMMARY:⚽ Ecuador vs Alemania | Grupo E
+SUMMARY:🌸 Ecuador vs Alemania | Grupo E
 DESCRIPTION:📅 Fase de Grupos — Grupo E\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Fase de Grupos
+COLOR:#EC4899
+X-APPLE-CALENDAR-COLOR:#EC4899
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -433,10 +491,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido30@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T000000
 DTEND;TZID=Europe/Madrid:20260626T015000
-SUMMARY:⚽ Curazao vs Costa de Marfil | Grupo E
+SUMMARY:🌸 Curazao vs Costa de Marfil | Grupo E
 DESCRIPTION:📅 Fase de Grupos — Grupo E\n🏟️ Lincoln Financial Field\, Filadelfia\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lincoln Financial Field\, Filadelfia
 CATEGORIES:Fase de Grupos
+COLOR:#EC4899
+X-APPLE-CALENDAR-COLOR:#EC4899
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -447,10 +507,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido31@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260615T000000
 DTEND;TZID=Europe/Madrid:20260615T015000
-SUMMARY:⚽ Países Bajos vs Japón | Grupo F
+SUMMARY:🧊 Países Bajos vs Japón | Grupo F
 DESCRIPTION:📅 Fase de Grupos — Grupo F\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Fase de Grupos
+COLOR:#06B6D4
+X-APPLE-CALENDAR-COLOR:#06B6D4
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -461,10 +523,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido32@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260615T040000
 DTEND;TZID=Europe/Madrid:20260615T055000
-SUMMARY:⚽ Suecia vs Túnez | Grupo F
+SUMMARY:🧊 Suecia vs Túnez | Grupo F
 DESCRIPTION:📅 Fase de Grupos — Grupo F\n🏟️ Estadio BBVA\, Guadalupe\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio BBVA\, Guadalupe
 CATEGORIES:Fase de Grupos
+COLOR:#06B6D4
+X-APPLE-CALENDAR-COLOR:#06B6D4
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -475,10 +539,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido33@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260620T190000
 DTEND;TZID=Europe/Madrid:20260620T205000
-SUMMARY:⚽ Países Bajos vs Suecia | Grupo F
+SUMMARY:🧊 Países Bajos vs Suecia | Grupo F
 DESCRIPTION:📅 Fase de Grupos — Grupo F\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Fase de Grupos
+COLOR:#06B6D4
+X-APPLE-CALENDAR-COLOR:#06B6D4
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -489,10 +555,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido34@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260620T060000
 DTEND;TZID=Europe/Madrid:20260620T075000
-SUMMARY:⚽ Túnez vs Japón | Grupo F
+SUMMARY:🧊 Túnez vs Japón | Grupo F
 DESCRIPTION:📅 Fase de Grupos — Grupo F\n🏟️ Estadio BBVA\, Guadalupe\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio BBVA\, Guadalupe
 CATEGORIES:Fase de Grupos
+COLOR:#06B6D4
+X-APPLE-CALENDAR-COLOR:#06B6D4
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -503,10 +571,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido35@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T010000
 DTEND;TZID=Europe/Madrid:20260626T025000
-SUMMARY:⚽ Túnez vs Países Bajos | Grupo F
+SUMMARY:🧊 Túnez vs Países Bajos | Grupo F
 DESCRIPTION:📅 Fase de Grupos — Grupo F\n🏟️ Arrowhead Stadium\, Kansas City\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Arrowhead Stadium\, Kansas City
 CATEGORIES:Fase de Grupos
+COLOR:#06B6D4
+X-APPLE-CALENDAR-COLOR:#06B6D4
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -517,10 +587,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido36@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T010000
 DTEND;TZID=Europe/Madrid:20260626T025000
-SUMMARY:⚽ Japón vs Suecia | Grupo F
+SUMMARY:🧊 Japón vs Suecia | Grupo F
 DESCRIPTION:📅 Fase de Grupos — Grupo F\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Fase de Grupos
+COLOR:#06B6D4
+X-APPLE-CALENDAR-COLOR:#06B6D4
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -531,10 +603,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido37@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260615T210000
 DTEND;TZID=Europe/Madrid:20260615T225000
-SUMMARY:⚽ Bélgica vs Egipto | Grupo G
+SUMMARY:🔴 Bélgica vs Egipto | Grupo G
 DESCRIPTION:📅 Fase de Grupos — Grupo G\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Fase de Grupos
+COLOR:#F43F5E
+X-APPLE-CALENDAR-COLOR:#F43F5E
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -545,10 +619,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido38@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260616T030000
 DTEND;TZID=Europe/Madrid:20260616T045000
-SUMMARY:⚽ Irán vs Nueva Zelanda | Grupo G
+SUMMARY:🔴 Irán vs Nueva Zelanda | Grupo G
 DESCRIPTION:📅 Fase de Grupos — Grupo G\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Fase de Grupos
+COLOR:#F43F5E
+X-APPLE-CALENDAR-COLOR:#F43F5E
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -559,10 +635,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido39@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260622T010000
 DTEND;TZID=Europe/Madrid:20260622T025000
-SUMMARY:⚽ Bélgica vs Irán | Grupo G
+SUMMARY:🔴 Bélgica vs Irán | Grupo G
 DESCRIPTION:📅 Fase de Grupos — Grupo G\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Fase de Grupos
+COLOR:#F43F5E
+X-APPLE-CALENDAR-COLOR:#F43F5E
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -573,10 +651,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido40@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260622T030000
 DTEND;TZID=Europe/Madrid:20260622T045000
-SUMMARY:⚽ Nueva Zelanda vs Egipto | Grupo G
+SUMMARY:🔴 Nueva Zelanda vs Egipto | Grupo G
 DESCRIPTION:📅 Fase de Grupos — Grupo G\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Fase de Grupos
+COLOR:#F43F5E
+X-APPLE-CALENDAR-COLOR:#F43F5E
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -587,10 +667,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido41@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260627T050000
 DTEND;TZID=Europe/Madrid:20260627T065000
-SUMMARY:⚽ Nueva Zelanda vs Bélgica | Grupo G
+SUMMARY:🔴 Nueva Zelanda vs Bélgica | Grupo G
 DESCRIPTION:📅 Fase de Grupos — Grupo G\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Fase de Grupos
+COLOR:#F43F5E
+X-APPLE-CALENDAR-COLOR:#F43F5E
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -601,10 +683,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido42@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260627T050000
 DTEND;TZID=Europe/Madrid:20260627T065000
-SUMMARY:⚽ Egipto vs Irán | Grupo G
+SUMMARY:🔴 Egipto vs Irán | Grupo G
 DESCRIPTION:📅 Fase de Grupos — Grupo G\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Fase de Grupos
+COLOR:#F43F5E
+X-APPLE-CALENDAR-COLOR:#F43F5E
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -631,10 +715,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido44@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260616T000000
 DTEND;TZID=Europe/Madrid:20260616T015000
-SUMMARY:⚽ Arabia Saudí vs Uruguay | Grupo H
+SUMMARY:🍏 Arabia Saudí vs Uruguay | Grupo H
 DESCRIPTION:📅 Fase de Grupos — Grupo H\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Fase de Grupos
+COLOR:#84CC16
+X-APPLE-CALENDAR-COLOR:#84CC16
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -661,10 +747,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido46@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260622T000000
 DTEND;TZID=Europe/Madrid:20260622T015000
-SUMMARY:⚽ Uruguay vs Cabo Verde | Grupo H
+SUMMARY:🍏 Uruguay vs Cabo Verde | Grupo H
 DESCRIPTION:📅 Fase de Grupos — Grupo H\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Fase de Grupos
+COLOR:#84CC16
+X-APPLE-CALENDAR-COLOR:#84CC16
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -691,10 +779,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido48@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260627T020000
 DTEND;TZID=Europe/Madrid:20260627T035000
-SUMMARY:⚽ Cabo Verde vs Arabia Saudí | Grupo H
+SUMMARY:🍏 Cabo Verde vs Arabia Saudí | Grupo H
 DESCRIPTION:📅 Fase de Grupos — Grupo H\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Fase de Grupos
+COLOR:#84CC16
+X-APPLE-CALENDAR-COLOR:#84CC16
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -705,10 +795,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido49@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260616T210000
 DTEND;TZID=Europe/Madrid:20260616T225000
-SUMMARY:⚽ Francia vs Senegal | Grupo I
+SUMMARY:🌌 Francia vs Senegal | Grupo I
 DESCRIPTION:📅 Fase de Grupos — Grupo I\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Fase de Grupos
+COLOR:#6366F1
+X-APPLE-CALENDAR-COLOR:#6366F1
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -719,10 +811,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido50@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260617T000000
 DTEND;TZID=Europe/Madrid:20260617T015000
-SUMMARY:⚽ Irak vs Noruega | Grupo I
+SUMMARY:🌌 Irak vs Noruega | Grupo I
 DESCRIPTION:📅 Fase de Grupos — Grupo I\n🏟️ Gillette Stadium\, Foxborough\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Gillette Stadium\, Foxborough
 CATEGORIES:Fase de Grupos
+COLOR:#6366F1
+X-APPLE-CALENDAR-COLOR:#6366F1
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -733,10 +827,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido51@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260622T230000
 DTEND;TZID=Europe/Madrid:20260623T005000
-SUMMARY:⚽ Francia vs Irak | Grupo I
+SUMMARY:🌌 Francia vs Irak | Grupo I
 DESCRIPTION:📅 Fase de Grupos — Grupo I\n🏟️ Lincoln Financial Field\, Filadelfia\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lincoln Financial Field\, Filadelfia
 CATEGORIES:Fase de Grupos
+COLOR:#6366F1
+X-APPLE-CALENDAR-COLOR:#6366F1
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -747,10 +843,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido52@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260623T020000
 DTEND;TZID=Europe/Madrid:20260623T035000
-SUMMARY:⚽ Noruega vs Senegal | Grupo I
+SUMMARY:🌌 Noruega vs Senegal | Grupo I
 DESCRIPTION:📅 Fase de Grupos — Grupo I\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Fase de Grupos
+COLOR:#6366F1
+X-APPLE-CALENDAR-COLOR:#6366F1
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -761,10 +859,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido53@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T210000
 DTEND;TZID=Europe/Madrid:20260626T225000
-SUMMARY:⚽ Noruega vs Francia | Grupo I
+SUMMARY:🌌 Noruega vs Francia | Grupo I
 DESCRIPTION:📅 Fase de Grupos — Grupo I\n🏟️ Gillette Stadium\, Foxborough\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Gillette Stadium\, Foxborough
 CATEGORIES:Fase de Grupos
+COLOR:#6366F1
+X-APPLE-CALENDAR-COLOR:#6366F1
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -775,10 +875,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido54@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260626T210000
 DTEND;TZID=Europe/Madrid:20260626T225000
-SUMMARY:⚽ Senegal vs Irak | Grupo I
+SUMMARY:🌌 Senegal vs Irak | Grupo I
 DESCRIPTION:📅 Fase de Grupos — Grupo I\n🏟️ BMO Field\, Toronto\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BMO Field\, Toronto
 CATEGORIES:Fase de Grupos
+COLOR:#6366F1
+X-APPLE-CALENDAR-COLOR:#6366F1
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -789,10 +891,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido55@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260617T030000
 DTEND;TZID=Europe/Madrid:20260617T045000
-SUMMARY:⚽ Argentina vs Argelia | Grupo J
+SUMMARY:🌊 Argentina vs Argelia | Grupo J
 DESCRIPTION:📅 Fase de Grupos — Grupo J\n🏟️ Arrowhead Stadium\, Kansas City\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Arrowhead Stadium\, Kansas City
 CATEGORIES:Fase de Grupos
+COLOR:#14B8A6
+X-APPLE-CALENDAR-COLOR:#14B8A6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -803,10 +907,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido56@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260617T060000
 DTEND;TZID=Europe/Madrid:20260617T075000
-SUMMARY:⚽ Austria vs Jordania | Grupo J
+SUMMARY:🌊 Austria vs Jordania | Grupo J
 DESCRIPTION:📅 Fase de Grupos — Grupo J\n🏟️ Levi's Stadium\, Santa Clara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Levi's Stadium\, Santa Clara
 CATEGORIES:Fase de Grupos
+COLOR:#14B8A6
+X-APPLE-CALENDAR-COLOR:#14B8A6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -817,10 +923,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido57@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260622T190000
 DTEND;TZID=Europe/Madrid:20260622T205000
-SUMMARY:⚽ Argentina vs Austria | Grupo J
+SUMMARY:🌊 Argentina vs Austria | Grupo J
 DESCRIPTION:📅 Fase de Grupos — Grupo J\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Fase de Grupos
+COLOR:#14B8A6
+X-APPLE-CALENDAR-COLOR:#14B8A6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -831,10 +939,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido58@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260623T050000
 DTEND;TZID=Europe/Madrid:20260623T065000
-SUMMARY:⚽ Jordania vs Argelia | Grupo J
+SUMMARY:🌊 Jordania vs Argelia | Grupo J
 DESCRIPTION:📅 Fase de Grupos — Grupo J\n🏟️ Levi's Stadium\, Santa Clara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Levi's Stadium\, Santa Clara
 CATEGORIES:Fase de Grupos
+COLOR:#14B8A6
+X-APPLE-CALENDAR-COLOR:#14B8A6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -845,10 +955,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido59@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T040000
 DTEND;TZID=Europe/Madrid:20260628T055000
-SUMMARY:⚽ Jordania vs Argentina | Grupo J
+SUMMARY:🌊 Jordania vs Argentina | Grupo J
 DESCRIPTION:📅 Fase de Grupos — Grupo J\n🏟️ Arrowhead Stadium\, Kansas City\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Arrowhead Stadium\, Kansas City
 CATEGORIES:Fase de Grupos
+COLOR:#14B8A6
+X-APPLE-CALENDAR-COLOR:#14B8A6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -859,10 +971,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido60@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T040000
 DTEND;TZID=Europe/Madrid:20260628T055000
-SUMMARY:⚽ Argelia vs Austria | Grupo J
+SUMMARY:🌊 Argelia vs Austria | Grupo J
 DESCRIPTION:📅 Fase de Grupos — Grupo J\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Fase de Grupos
+COLOR:#14B8A6
+X-APPLE-CALENDAR-COLOR:#14B8A6
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -873,10 +987,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido61@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260617T190000
 DTEND;TZID=Europe/Madrid:20260617T205000
-SUMMARY:⚽ Portugal vs RD Congo | Grupo K
+SUMMARY:🍊 Portugal vs RD Congo | Grupo K
 DESCRIPTION:📅 Fase de Grupos — Grupo K\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Fase de Grupos
+COLOR:#F97316
+X-APPLE-CALENDAR-COLOR:#F97316
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -887,10 +1003,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido62@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260618T040000
 DTEND;TZID=Europe/Madrid:20260618T055000
-SUMMARY:⚽ Uzbekistán vs Colombia | Grupo K
+SUMMARY:🍊 Uzbekistán vs Colombia | Grupo K
 DESCRIPTION:📅 Fase de Grupos — Grupo K\n🏟️ Estadio Azteca\, Ciudad de México\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio Azteca\, Ciudad de México
 CATEGORIES:Fase de Grupos
+COLOR:#F97316
+X-APPLE-CALENDAR-COLOR:#F97316
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -901,10 +1019,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido63@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260623T190000
 DTEND;TZID=Europe/Madrid:20260623T205000
-SUMMARY:⚽ Portugal vs Uzbekistán | Grupo K
+SUMMARY:🍊 Portugal vs Uzbekistán | Grupo K
 DESCRIPTION:📅 Fase de Grupos — Grupo K\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Fase de Grupos
+COLOR:#F97316
+X-APPLE-CALENDAR-COLOR:#F97316
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -915,10 +1035,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido64@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260624T040000
 DTEND;TZID=Europe/Madrid:20260624T055000
-SUMMARY:⚽ Colombia vs RD Congo | Grupo K
+SUMMARY:🍊 Colombia vs RD Congo | Grupo K
 DESCRIPTION:📅 Fase de Grupos — Grupo K\n🏟️ Estadio Akron\, Guadalajara\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Estadio Akron\, Guadalajara
 CATEGORIES:Fase de Grupos
+COLOR:#F97316
+X-APPLE-CALENDAR-COLOR:#F97316
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -929,10 +1051,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido65@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T013000
 DTEND;TZID=Europe/Madrid:20260628T032000
-SUMMARY:⚽ Colombia vs Portugal | Grupo K
+SUMMARY:🍊 Colombia vs Portugal | Grupo K
 DESCRIPTION:📅 Fase de Grupos — Grupo K\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Fase de Grupos
+COLOR:#F97316
+X-APPLE-CALENDAR-COLOR:#F97316
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -943,10 +1067,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido66@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T013000
 DTEND;TZID=Europe/Madrid:20260628T032000
-SUMMARY:⚽ RD Congo vs Uzbekistán | Grupo K
+SUMMARY:🍊 RD Congo vs Uzbekistán | Grupo K
 DESCRIPTION:📅 Fase de Grupos — Grupo K\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Fase de Grupos
+COLOR:#F97316
+X-APPLE-CALENDAR-COLOR:#F97316
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -957,10 +1083,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido67@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260617T220000
 DTEND;TZID=Europe/Madrid:20260617T235000
-SUMMARY:⚽ Inglaterra vs Croacia | Grupo L
+SUMMARY:🍇 Inglaterra vs Croacia | Grupo L
 DESCRIPTION:📅 Fase de Grupos — Grupo L\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Fase de Grupos
+COLOR:#A855F7
+X-APPLE-CALENDAR-COLOR:#A855F7
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -971,10 +1099,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido68@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260618T010000
 DTEND;TZID=Europe/Madrid:20260618T025000
-SUMMARY:⚽ Ghana vs Panamá | Grupo L
+SUMMARY:🍇 Ghana vs Panamá | Grupo L
 DESCRIPTION:📅 Fase de Grupos — Grupo L\n🏟️ BMO Field\, Toronto\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BMO Field\, Toronto
 CATEGORIES:Fase de Grupos
+COLOR:#A855F7
+X-APPLE-CALENDAR-COLOR:#A855F7
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -985,10 +1115,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido69@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260623T220000
 DTEND;TZID=Europe/Madrid:20260623T235000
-SUMMARY:⚽ Inglaterra vs Ghana | Grupo L
+SUMMARY:🍇 Inglaterra vs Ghana | Grupo L
 DESCRIPTION:📅 Fase de Grupos — Grupo L\n🏟️ Gillette Stadium\, Foxborough\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Gillette Stadium\, Foxborough
 CATEGORIES:Fase de Grupos
+COLOR:#A855F7
+X-APPLE-CALENDAR-COLOR:#A855F7
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -999,10 +1131,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido70@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260624T010000
 DTEND;TZID=Europe/Madrid:20260624T025000
-SUMMARY:⚽ Panamá vs Croacia | Grupo L
+SUMMARY:🍇 Panamá vs Croacia | Grupo L
 DESCRIPTION:📅 Fase de Grupos — Grupo L\n🏟️ Lincoln Financial Field\, Filadelfia\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lincoln Financial Field\, Filadelfia
 CATEGORIES:Fase de Grupos
+COLOR:#A855F7
+X-APPLE-CALENDAR-COLOR:#A855F7
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1013,10 +1147,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido71@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T210000
 DTEND;TZID=Europe/Madrid:20260628T225000
-SUMMARY:⚽ Croacia vs Ghana | Grupo L
+SUMMARY:🍇 Croacia vs Ghana | Grupo L
 DESCRIPTION:📅 Fase de Grupos — Grupo L\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Fase de Grupos
+COLOR:#A855F7
+X-APPLE-CALENDAR-COLOR:#A855F7
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1027,10 +1163,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido72@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T210000
 DTEND;TZID=Europe/Madrid:20260628T225000
-SUMMARY:⚽ Panamá vs Inglaterra | Grupo L
+SUMMARY:🍇 Panamá vs Inglaterra | Grupo L
 DESCRIPTION:📅 Fase de Grupos — Grupo L\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Fase de Grupos
+COLOR:#A855F7
+X-APPLE-CALENDAR-COLOR:#A855F7
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1041,10 +1179,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido73@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260628T220000
 DTEND;TZID=Europe/Madrid:20260628T235000
-SUMMARY:⚽ 1A vs 3B/C/D | Dieciseisavos
+SUMMARY:🏆 1A vs 3B/C/D | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1055,10 +1195,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido74@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260629T010000
 DTEND;TZID=Europe/Madrid:20260629T025000
-SUMMARY:⚽ 1C vs 3A/B/F | Dieciseisavos
+SUMMARY:🏆 1C vs 3A/B/F | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1069,10 +1211,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido75@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260629T190000
 DTEND;TZID=Europe/Madrid:20260629T205000
-SUMMARY:⚽ 1B vs 3G/H/I | Dieciseisavos
+SUMMARY:🏆 1B vs 3G/H/I | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1083,10 +1227,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido76@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260629T220000
 DTEND;TZID=Europe/Madrid:20260629T235000
-SUMMARY:⚽ 1D vs 3J/K/L | Dieciseisavos
+SUMMARY:🏆 1D vs 3J/K/L | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1097,10 +1243,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido77@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260630T010000
 DTEND;TZID=Europe/Madrid:20260630T025000
-SUMMARY:⚽ 1E vs 3A/B/C | Dieciseisavos
+SUMMARY:🏆 1E vs 3A/B/C | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1111,10 +1259,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido78@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260630T190000
 DTEND;TZID=Europe/Madrid:20260630T205000
-SUMMARY:⚽ 1F vs 3D/E/G | Dieciseisavos
+SUMMARY:🏆 1F vs 3D/E/G | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1125,10 +1275,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido79@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260630T220000
 DTEND;TZID=Europe/Madrid:20260630T235000
-SUMMARY:⚽ 2A vs 2B | Dieciseisavos
+SUMMARY:🏆 2A vs 2B | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ BMO Field\, Toronto\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BMO Field\, Toronto
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1139,10 +1291,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido80@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260701T010000
 DTEND;TZID=Europe/Madrid:20260701T025000
-SUMMARY:⚽ 2C vs 2D | Dieciseisavos
+SUMMARY:🏆 2C vs 2D | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1153,10 +1307,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido81@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260701T190000
 DTEND;TZID=Europe/Madrid:20260701T205000
-SUMMARY:⚽ 1G vs 3D/E/H | Dieciseisavos
+SUMMARY:🏆 1G vs 3D/E/H | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Arrowhead Stadium\, Kansas City\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Arrowhead Stadium\, Kansas City
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1167,10 +1323,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido82@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260701T220000
 DTEND;TZID=Europe/Madrid:20260701T235000
-SUMMARY:⚽ 1H vs 3C/F/I | Dieciseisavos
+SUMMARY:🏆 1H vs 3C/F/I | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Lincoln Financial Field\, Filadelfia\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lincoln Financial Field\, Filadelfia
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1181,10 +1339,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido83@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260702T010000
 DTEND;TZID=Europe/Madrid:20260702T025000
-SUMMARY:⚽ 2E vs 2F | Dieciseisavos
+SUMMARY:🏆 2E vs 2F | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Gillette Stadium\, Foxborough\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Gillette Stadium\, Foxborough
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1195,10 +1355,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido84@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260702T190000
 DTEND;TZID=Europe/Madrid:20260702T205000
-SUMMARY:⚽ 2G vs 2H | Dieciseisavos
+SUMMARY:🏆 2G vs 2H | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1209,10 +1371,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido85@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260702T220000
 DTEND;TZID=Europe/Madrid:20260702T235000
-SUMMARY:⚽ 1I vs 3F/G/J | Dieciseisavos
+SUMMARY:🏆 1I vs 3F/G/J | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1223,10 +1387,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido86@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260703T010000
 DTEND;TZID=Europe/Madrid:20260703T025000
-SUMMARY:⚽ 1J vs 3H/I/K | Dieciseisavos
+SUMMARY:🏆 1J vs 3H/I/K | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1237,10 +1403,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido87@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260703T190000
 DTEND;TZID=Europe/Madrid:20260703T205000
-SUMMARY:⚽ 2I vs 2J | Dieciseisavos
+SUMMARY:🏆 2I vs 2J | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1251,10 +1419,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido88@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260703T220000
 DTEND;TZID=Europe/Madrid:20260703T235000
-SUMMARY:⚽ 1K/L vs 2K/L | Dieciseisavos
+SUMMARY:🏆 1K/L vs 2K/L | Dieciseisavos
 DESCRIPTION:📅 Dieciseisavos\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: DAZN / Mediapro Mundial (pago)\nStreaming: dazn.com | Movistar+ | Orange TV\n💳 Canal de pago — incluido en paquetes Movistar+ y Orange TV con fútbol\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Dieciseisavos
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1265,10 +1435,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido89@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260704T190000
 DTEND;TZID=Europe/Madrid:20260704T205000
-SUMMARY:⚽ Gan. P73 vs Gan. P74 | Octavos de Final
+SUMMARY:🏆 Gan. P73 vs Gan. P74 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1279,10 +1451,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido90@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260704T220000
 DTEND;TZID=Europe/Madrid:20260704T235000
-SUMMARY:⚽ Gan. P75 vs Gan. P76 | Octavos de Final
+SUMMARY:🏆 Gan. P75 vs Gan. P76 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1293,10 +1467,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido91@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260705T190000
 DTEND;TZID=Europe/Madrid:20260705T205000
-SUMMARY:⚽ Gan. P77 vs Gan. P78 | Octavos de Final
+SUMMARY:🏆 Gan. P77 vs Gan. P78 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ BC Place\, Vancouver\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:BC Place\, Vancouver
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1307,10 +1483,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido92@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260705T220000
 DTEND;TZID=Europe/Madrid:20260705T235000
-SUMMARY:⚽ Gan. P79 vs Gan. P80 | Octavos de Final
+SUMMARY:🏆 Gan. P79 vs Gan. P80 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1321,10 +1499,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido93@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260706T190000
 DTEND;TZID=Europe/Madrid:20260706T205000
-SUMMARY:⚽ Gan. P81 vs Gan. P82 | Octavos de Final
+SUMMARY:🏆 Gan. P81 vs Gan. P82 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ Lumen Field\, Seattle\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Lumen Field\, Seattle
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1335,10 +1515,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido94@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260706T220000
 DTEND;TZID=Europe/Madrid:20260706T235000
-SUMMARY:⚽ Gan. P83 vs Gan. P84 | Octavos de Final
+SUMMARY:🏆 Gan. P83 vs Gan. P84 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1349,10 +1531,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido95@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260707T190000
 DTEND;TZID=Europe/Madrid:20260707T205000
-SUMMARY:⚽ Gan. P85 vs Gan. P86 | Octavos de Final
+SUMMARY:🏆 Gan. P85 vs Gan. P86 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1363,10 +1547,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido96@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260707T220000
 DTEND;TZID=Europe/Madrid:20260707T235000
-SUMMARY:⚽ Gan. P87 vs Gan. P88 | Octavos de Final
+SUMMARY:🏆 Gan. P87 vs Gan. P88 | Octavos de Final
 DESCRIPTION:📅 Octavos de Final\n🏟️ NRG Stadium\, Houston\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:NRG Stadium\, Houston
 CATEGORIES:Octavos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1377,10 +1563,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido97@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260709T220000
 DTEND;TZID=Europe/Madrid:20260709T235000
-SUMMARY:⚽ Gan. P89 vs Gan. P90 | Cuartos de Final
+SUMMARY:🏆 Gan. P89 vs Gan. P90 | Cuartos de Final
 DESCRIPTION:📅 Cuartos de Final\n🏟️ MetLife Stadium\, Nueva Jersey\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, Nueva Jersey
 CATEGORIES:Cuartos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1391,10 +1579,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido98@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260710T010000
 DTEND;TZID=Europe/Madrid:20260710T025000
-SUMMARY:⚽ Gan. P91 vs Gan. P92 | Cuartos de Final
+SUMMARY:🏆 Gan. P91 vs Gan. P92 | Cuartos de Final
 DESCRIPTION:📅 Cuartos de Final\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Cuartos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1405,10 +1595,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido99@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260710T220000
 DTEND;TZID=Europe/Madrid:20260710T235000
-SUMMARY:⚽ Gan. P93 vs Gan. P94 | Cuartos de Final
+SUMMARY:🏆 Gan. P93 vs Gan. P94 | Cuartos de Final
 DESCRIPTION:📅 Cuartos de Final\n🏟️ SoFi Stadium\, Inglewood\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:SoFi Stadium\, Inglewood
 CATEGORIES:Cuartos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1419,10 +1611,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido100@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260711T010000
 DTEND;TZID=Europe/Madrid:20260711T025000
-SUMMARY:⚽ Gan. P95 vs Gan. P96 | Cuartos de Final
+SUMMARY:🏆 Gan. P95 vs Gan. P96 | Cuartos de Final
 DESCRIPTION:📅 Cuartos de Final\n🏟️ Arrowhead Stadium\, Kansas City\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Arrowhead Stadium\, Kansas City
 CATEGORIES:Cuartos de Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1433,10 +1627,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido101@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260714T020000
 DTEND;TZID=Europe/Madrid:20260714T035000
-SUMMARY:⚽ Gan. P97 vs Gan. P98 | Semifinal
+SUMMARY:🏆 Gan. P97 vs Gan. P98 | Semifinal
 DESCRIPTION:📅 Semifinal\n🏟️ AT&T Stadium\, Arlington\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:AT&T Stadium\, Arlington
 CATEGORIES:Semifinal
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1447,10 +1643,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido102@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260715T020000
 DTEND;TZID=Europe/Madrid:20260715T035000
-SUMMARY:⚽ Gan. P99 vs Gan. P100 | Semifinal
+SUMMARY:🏆 Gan. P99 vs Gan. P100 | Semifinal
 DESCRIPTION:📅 Semifinal\n🏟️ Mercedes-Benz Stadium\, Atlanta\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 CATEGORIES:Semifinal
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1461,10 +1659,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido103@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260718T200000
 DTEND;TZID=Europe/Madrid:20260718T215000
-SUMMARY:⚽ Perd. P101 vs Perd. P102 | 3er Puesto
+SUMMARY:🏆 Perd. P101 vs Perd. P102 | 3er Puesto
 DESCRIPTION:📅 3er Puesto\n🏟️ Hard Rock Stadium\, Miami\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:Hard Rock Stadium\, Miami
 CATEGORIES:3er Puesto
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -1475,10 +1675,12 @@ BEGIN:VEVENT
 UID:mundial2026-partido104@manu.ruiz
 DTSTART;TZID=Europe/Madrid:20260719T200000
 DTEND;TZID=Europe/Madrid:20260719T215000
-SUMMARY:⚽ Gan. P101 vs Gan. P102 | Final
+SUMMARY:🏆 Gan. P101 vs Gan. P102 | Final
 DESCRIPTION:📅 Final\n🏟️ MetLife Stadium\, East Rutherford\, NJ\n\n📺 RETRANSMISIÓN EN ESPAÑA\nCadena: RTVE La 1 (en abierto)\nStreaming: rtve.es / RTVE Play (gratis)\n📺 Partido destacado — emisión en abierto\n\n📰 ANÁLISIS PREVIO\nNuestro mono maldini estará actualizando el mismo día del partido para su goce personal. Disfruten perros.\n\n---\nEscrito con la chorra - Mundial 2026
 LOCATION:MetLife Stadium\, East Rutherford\, NJ
 CATEGORIES:Final
+COLOR:#EAB308
+X-APPLE-CALENDAR-COLOR:#EAB308
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
