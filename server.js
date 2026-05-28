@@ -65,8 +65,8 @@ app.listen(PORT, () => {
     }
   });
 
-  // Programar un cron que hable solo cada 6 horas para caldear el ambiente
-  cron.schedule('0 */6 * * *', async () => {
+  // Programar un cron que hable solo cada 2 horas para caldear el ambiente
+  cron.schedule('0 */2 * * *', async () => {
     console.log('⏰ Ejecutando interacción espontánea de Maldini...');
     try {
       const randomMsg = await getProactiveMessage();
