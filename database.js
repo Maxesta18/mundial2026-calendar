@@ -27,10 +27,16 @@ function initDb() {
       match_id INTEGER NOT NULL,
       home_score INTEGER NOT NULL,
       away_score INTEGER NOT NULL,
+      points INTEGER DEFAULT NULL,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (user_id) REFERENCES users (id),
       UNIQUE(user_id, match_id)
-    )`);
+    )`, (err) => {
+      if (!err) {
+        // Intentar añadir la columna por si la tabla ya existía de la versión anterior
+        db.run(`ALTER TABLE predictions ADD COLUMN points INTEGER DEFAULT NULL`, () => {});
+      }
+    });
 
     // Tabla de partidos y resultados en vivo
     db.run(`CREATE TABLE IF NOT EXISTS matches_live (
@@ -88,8 +94,60 @@ function getPredictionsForMatch(matchId) {
   });
 }
 
+// Función para calcular puntos de un partido
+function calculateMatchPoints(matchId, realHomeScore, realAwayScore) {
+  return new Promise((resolve, reject) => {
+    db.all(`SELECT id, home_score, away_score FROM predictions WHERE match_id = ?`, [matchId], (err, rows) => {
+      if (err) return reject(err);
+
+      const realWinner = realHomeScore > realAwayScore ? 'home' : (realAwayScore > realHomeScore ? 'away' : 'draw');
+      
+      db.serialize(() => {
+        db.run('BEGIN TRANSACTION');
+        
+        rows.forEach(p => {
+          let points = 0;
+          const predWinner = p.home_score > p.away_score ? 'home' : (p.away_score > p.home_score ? 'away' : 'draw');
+          
+          if (p.home_score === realHomeScore && p.away_score === realAwayScore) {
+            points = 3; // Pleno
+          } else if (predWinner === realWinner) {
+            points = 1; // Acierto simple
+          }
+          
+          // Guardar puntos en la base de datos (requeriremos añadir la columna)
+          db.run(`UPDATE predictions SET points = ? WHERE id = ?`, [points, p.id]);
+        });
+        
+        db.run('COMMIT', (err) => {
+          if (err) reject(err);
+          else resolve();
+        });
+      });
+    });
+  });
+}
+
+// Obtener clasificación
+function getLeaderboard() {
+  return new Promise((resolve, reject) => {
+    db.all(`
+      SELECT u.name, SUM(IFNULL(p.points, 0)) as total_points
+      FROM users u
+      LEFT JOIN predictions p ON u.id = p.user_id
+      GROUP BY u.id
+      ORDER BY total_points DESC, u.name ASC
+    `, [], (err, rows) => {
+      if (err) reject(err);
+      else resolve(rows);
+    });
+  });
+}
+
 module.exports = {
   db,
   savePrediction,
-  getPredictionsForMatch
+  getPredictionsForMatch,
+  calculateMatchPoints,
+  getLeaderboard
 };
