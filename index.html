@@ -194,6 +194,49 @@
             transform: translateY(0);
         }
 
+        .calendar-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 16px;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-google {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-google:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(16, 185, 129, 0.4); }
+
+        .btn-apple {
+            background: linear-gradient(135deg, #f8fafc, #cbd5e1);
+            color: #0f172a;
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-apple:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(255, 255, 255, 0.2); }
+
         .matches-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -248,6 +291,32 @@
             border: 1px solid rgba(212, 175, 55, 0.3);
         }
 
+        .leaderboard-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .leaderboard-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            font-weight: 600;
+        }
+
+        .leaderboard-item.rank-1 { background: rgba(212, 175, 55, 0.2); border-color: var(--primary); }
+        .leaderboard-item.rank-2 { background: rgba(192, 192, 192, 0.1); border-color: #c0c0c0; }
+        .leaderboard-item.rank-3 { background: rgba(205, 127, 50, 0.1); border-color: #cd7f32; }
+
+        .rank-number { font-size: 18px; font-weight: 800; width: 30px; }
+        .rank-name { flex: 1; text-align: left; margin-left: 10px; }
+        .rank-points { color: var(--primary); font-size: 20px; font-weight: 800; }
+
         .toast {
             position: fixed;
             bottom: -100px;
@@ -277,7 +346,19 @@
 
     <div class="header-container">
         <h1>Mundial 2026</h1>
-        <p class="subtitle">Club de Apuestas Privado. Selecciona un partido, introduce tu predicción y demuestra quién manda.</p>
+        <p class="subtitle">Club de Apuestas Privado. Suscríbete al calendario de partidos y sella tu porra.</p>
+    </div>
+
+    <!-- CALENDARIO -->
+    <div class="calendar-buttons">
+        <a id="btnGoogle" href="https://calendar.google.com/calendar/render?cid=webcal://94.143.142.200/mundial2026.ics?v=4" class="btn btn-google" target="_blank">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Google Calendar
+        </a>
+        <a id="btnApple" href="webcal://94.143.142.200/mundial2026.ics?v=4" class="btn btn-apple">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2ZM11 19.938C7.054 19.444 4 16.082 4 12C4 7.918 7.054 4.556 11 4.062V19.938ZM13 4.062C16.946 4.556 20 7.918 20 12C20 16.082 16.946 19.444 13 19.938V4.062Z" /></svg>
+            Apple / Outlook
+        </a>
     </div>
 
     <div class="glass-panel">
@@ -311,6 +392,17 @@
 
             <button type="submit" class="porra-submit">Sellar Apuesta 🔒</button>
         </form>
+    </div>
+
+    <!-- CLASIFICACIÓN -->
+    <div class="glass-panel" style="margin-top: 0;">
+        <div class="porra-title">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+            CLASIFICACIÓN VIP
+        </div>
+        <div class="leaderboard-list" id="leaderboard-list">
+            <p style="text-align:center; color: var(--text-muted); width: 100%;">Cargando ranking...</p>
+        </div>
     </div>
 
     <div class="header-container" style="margin-bottom: 20px;">
@@ -373,6 +465,39 @@
             })
             .catch(err => {
                 document.getElementById('matches-grid').innerHTML = '<p style="text-align:center; color: var(--accent);">Error al cargar los partidos.</p>';
+            });
+
+        // Cargar clasificación
+        fetch('/api/leaderboard')
+            .then(res => res.json())
+            .then(data => {
+                const list = document.getElementById('leaderboard-list');
+                list.innerHTML = '';
+                
+                if (data.length === 0) {
+                    list.innerHTML = '<p style="text-align:center; color: var(--text-muted);">Aún no hay puntuaciones.</p>';
+                    return;
+                }
+
+                data.forEach((user, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'leaderboard-item' + (index < 3 ? ' rank-' + (index + 1) : '');
+                    
+                    let medal = '';
+                    if (index === 0) medal = '🥇';
+                    else if (index === 1) medal = '🥈';
+                    else if (index === 2) medal = '🥉';
+
+                    item.innerHTML = `
+                        <div class="rank-number">${index + 1}º</div>
+                        <div class="rank-name">${medal} ${user.name}</div>
+                        <div class="rank-points">${user.total_points} pts</div>
+                    `;
+                    list.appendChild(item);
+                });
+            })
+            .catch(err => {
+                document.getElementById('leaderboard-list').innerHTML = '<p style="text-align:center; color: var(--accent);">Error al cargar la clasificación.</p>';
             });
 
         document.getElementById('porraForm').addEventListener('submit', async (e) => {
